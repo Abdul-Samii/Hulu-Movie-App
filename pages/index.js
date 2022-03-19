@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Header, Nav } from '../components'
+import { Header, Nav, Results } from '../components'
 import requests from '../utils/requests';
 
 export default function Home(props) {
@@ -18,6 +18,7 @@ export default function Home(props) {
           {/* Navbar */}
           <Nav/>
           {/* Results */}
+          <Results results={props.results}/>
       </main>
     </div>
   )
