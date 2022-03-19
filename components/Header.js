@@ -25,7 +25,8 @@ export function Header() {
                 src="/hulu.png"
                 height={35}
                 width={120}
-                className="object-contain"
+                className="object-contain -mr-32"
+
             />            
         </header>
     )
